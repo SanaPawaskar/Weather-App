@@ -62,8 +62,8 @@ const Weather = () => {
          <p>Temperature: {city ? `${city.temp}°C` : 'City not found'}</p>
      </div>
  <div className='info-min'>
-   {/* <div>Max: {city.temp_max}  |</div>
-    <div>Min: {city.temp_min}</div> */}
+   <div>Max: {city.temp_max}  |</div>
+    <div>Min: {city.temp_min}</div>
   </div>
 
  </div>
